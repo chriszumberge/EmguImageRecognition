@@ -23,6 +23,7 @@ namespace ImageRecognitionEmGu
             long matchTime;
 
             //using (Mat modelImage = CvInvoke.Imread("phone_rotated.JPG", Emgu.CV.CvEnum.ImreadModes.Grayscale))
+            //using (Mat modelImage = CvInvoke.Imread("phone.JPG", Emgu.CV.CvEnum.ImreadModes.Grayscale))
             //using (Mat observedImage = CvInvoke.Imread("desk_top.JPG", Emgu.CV.CvEnum.ImreadModes.Grayscale))
             using (Mat modelImage = CvInvoke.Imread("k_rune.JPG", Emgu.CV.CvEnum.ImreadModes.Grayscale))
             using (Mat observedImage = CvInvoke.Imread("alpha_rune.JPG", Emgu.CV.CvEnum.ImreadModes.Grayscale))
